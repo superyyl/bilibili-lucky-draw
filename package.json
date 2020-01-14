@@ -1,0 +1,21 @@
+{
+    "name": "bilibili-lucky-draw",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "rm -rf dist/* && npm run build && cd dist && node app",
+        "build": "tsc"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "typescript": "^3.7.4"
+    },
+    "dependencies": {
+        "@types/request-promise": "^4.1.45",
+        "request": "^2.88.0",
+        "request-promise": "^4.2.5"
+    }
+}
